@@ -18,7 +18,9 @@ Project:
 
 # Install on 3.9
 
-`git clone https://github.com/dpdevel/openshift-cmo-installer.git`
-`cd openshift-cmo-instller`
-`oc login -u system:admin https://your.openshift.console:8443`
-`oc apply -f manifests/`
+```
+git clone https://github.com/dpdevel/openshift-cmo-installer.git
+cd openshift-cmo-instller
+oc login -u system:admin https://your.openshift.console:8443
+oc apply -f manifests/
+```
